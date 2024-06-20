@@ -1,6 +1,6 @@
 import esphome.codegen as cg
 import esphome.config_validation as cv
-from esphome.const import PLATFORM_ESP8266
+#from esphome.const import PLATFORM_ESP8266
 from esphome.components import climate
 from esphome.components.logger import HARDWARE_UART_TO_SERIAL
 from esphome.const import (
@@ -11,6 +11,7 @@ from esphome.const import (
     CONF_MODE,
     CONF_FAN_MODE,
     CONF_SWING_MODE,
+    PLATFORM_ESP8266,
 )
 from esphome.core import CORE, coroutine
 
